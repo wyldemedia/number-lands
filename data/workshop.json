@@ -1,0 +1,20 @@
+{
+  "state": "hibernating",
+  "name": "The Abundance Tapestry",
+  "summary": "A four-week live workshop, building from what's already real.",
+  "open": {
+    "dates": "Four Tuesdays from 3 March, 7pm UK / 2pm US Eastern",
+    "threshold": 8,
+    "reserved": 0,
+    "price": "$250",
+    "foundingPrice": "$175 founding cohort",
+    "deposit": "Reserve with a small refundable deposit.",
+    "reserveUrl": "",
+    "bonusOnlyUrl": "",
+    "bonusOnlyNote": "Done the core already? Join the bonus session only."
+  },
+  "hibernating": {
+    "message": "The workshop runs when enough people want it. Ask to hear when it next runs.",
+    "notifyUrl": ""
+  }
+}
