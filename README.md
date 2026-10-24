@@ -15,7 +15,7 @@ The Money Trauma series lead magnet for the Somatic Abundance podcast. Each seri
 
 ## Everyday changes
 
-**Add a recording.** Put the file in `audio/` (MP3 or M4A), then set that session's `"audio"` in `data/tracks.json`, for example `"audio": "audio/when-the-number-lands.mp3"`, and set `"minutes"`. Until a session has audio it shows "Recording soon" with the play button disabled.
+**Add a recording.** Put the file in `audio/` (MP3 or M4A), then set that session's `"audio"` in `data/tracks.json`, for example `"audio": "audio/breathing-room.mp3"`, and set `"minutes"`. Until a session has audio it shows "Recording soon" with the play button disabled.
 
 **Switch the workshop.** In `data/workshop.json`, set `"state"` to `"open"` or `"hibernating"` and fill in that block. `reserveUrl` and `bonusOnlyUrl` take payment links (for example Stripe Payment Links); `reserved` is the count shown against the threshold. Data files are fetched fresh each time the app opens, so this change reaches returning users without a version bump.
 
