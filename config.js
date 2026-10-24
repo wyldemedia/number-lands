@@ -1,6 +1,6 @@
 // Site settings. Edit this file, then bump CACHE_VERSION in sw.js so returning users get it.
 window.SA_CONFIG = {
-  appVersion: "0.1.0",
+  appVersion: "0.1.1",
 
   auth: {
     // "preview": no emails are sent; any address signs in on this device. For testing only.

@@ -98,8 +98,9 @@ function edgeOpen(user) {
 function viewSignIn() {
   const lead = DATA.tracks[0].sessions[0];
   app.innerHTML = `
-    <h1>${esc(lead.title)}</h1>
-    <p>${esc(lead.summary)} A short guided session for the moments money stress hits.</p>
+    <h1>Beyond the Balance</h1>
+    <p class="tagline">The bank says you're fine. Your body hasn't heard.</p>
+    <p>Start with <strong>${esc(lead.title)}</strong>. ${esc(lead.summary)} A short guided session for the moments money stress hits.</p>
     <form id="signin" novalidate>
       <label for="email">Your email</label>
       <input id="email" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com">
@@ -272,7 +273,7 @@ function bindPlayer(s) {
   seek.oninput = () => { if (isFinite(audio.duration)) audio.currentTime = (seek.value / 100) * audio.duration; };
   ["play", "pause", "timeupdate", "loadedmetadata", "ended"].forEach((ev) => (audio["on" + ev] = sync));
   if ("mediaSession" in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: "Somatic Abundance", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
+    navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: "Beyond the Balance", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
   }
   sync();
 }

@@ -53,6 +53,7 @@ a { color: var(--play); }
 .icon-btn { background: none; border: 1px solid var(--line); color: var(--text); border-radius: 999px; width: 40px; height: 40px; font-size: 18px; cursor: pointer; }
 
 h1 { font-size: 1.75rem; line-height: 1.2; margin: 16px 0 8px; font-weight: 600; }
+.tagline { font-size: 1.125rem; margin: 0 0 16px; }
 h2 { font-size: 1.15rem; margin: 28px 0 8px; font-weight: 600; }
 p { margin: 0 0 12px; }
 .muted { color: var(--muted); }

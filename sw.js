@@ -1,6 +1,6 @@
 // Bump this on every deploy that changes the app shell (HTML, CSS, JS, config, icons).
 // Old caches are deleted when the new version takes over.
-const CACHE_VERSION = "sa-v0.1.0";
+const CACHE_VERSION = "sa-v0.1.1";
 
 const SHELL = [
   "./",
