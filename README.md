@@ -1,6 +1,6 @@
-# Somatic Abundance app
+# Beyond the Balance
 
-The PWA from Brand Blueprint v2.3, sections 9 and 10. Plain static files with no build step: upload the folder to any static host (GitHub Pages, Netlify, Cloudflare Pages) and it runs.
+The Money Trauma series lead magnet for the Somatic Abundance podcast. Each series gets its own PWA; this is the money one. The PWA from Brand Blueprint v2.3, sections 9 and 10. Plain static files with no build step: upload the folder to any static host (GitHub Pages, Netlify, Cloudflare Pages) and it runs.
 
 ## What's in it
 

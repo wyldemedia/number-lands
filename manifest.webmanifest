@@ -1,7 +1,7 @@
 {
-  "name": "Somatic Abundance",
-  "short_name": "Abundance",
-  "description": "Guided sessions for the moments money stress hits.",
+  "name": "Beyond the Balance",
+  "short_name": "Beyond",
+  "description": "The bank says you're fine. Your body hasn't heard.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
