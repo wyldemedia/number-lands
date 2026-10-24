@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Beyond the Balance</title>
+  <meta name="description" content="The bank says you&#39;re fine. Your body hasn&#39;t heard.">
+  <meta name="theme-color" content="#1C1D24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Beyond">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Apply the saved theme before first paint. Dark is the default.
+    try { var t = localStorage.getItem("sa.theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">Beyond the Balance</a>
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light mode">◐</button>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main id="app" tabindex="-1">
+    <p class="muted">Loading…</p>
+  </main>
+
+  <footer class="foot">
+    <details class="help">
+      <summary>If money is in crisis right now</summary>
+      <p>These sessions help with how money stress feels. They aren't financial advice. For free, confidential help with debt:</p>
+      <ul>
+        <li>UK: <a href="https://www.stepchange.org" target="_blank" rel="noopener">StepChange</a> or <a href="https://www.citizensadvice.org.uk" target="_blank" rel="noopener">Citizens Advice</a></li>
+        <li>US: a non-profit credit counsellor through <a href="https://www.nfcc.org" target="_blank" rel="noopener">NFCC</a></li>
+      </ul>
+    </details>
+    <p class="muted small">
+      <span id="version"></span>
+      <span id="signout-wrap" hidden> · <button class="link-btn" id="signout" type="button">Sign out</button></span>
+    </p>
+  </footer>
+
+  <div id="update-toast" class="toast" hidden>
+    A new version is ready. <button class="link-btn" id="update-btn" type="button">Refresh</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

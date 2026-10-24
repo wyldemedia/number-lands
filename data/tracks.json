@@ -1,0 +1,45 @@
+{
+  "tracks": [
+    {
+      "id": "money",
+      "title": "When money feels heavy",
+      "intro": "Short guided sessions for the moments money stress hits, and for practising while things are steady.",
+      "sessions": [
+        {
+          "id": "breathing-room",
+          "title": "Breathing Room",
+          "unlockDay": 0,
+          "minutes": 7,
+          "summary": "For when you've checked the balance and your attention keeps going back.",
+          "audio": null,
+          "afterLine": "This session puts out the fire. The Abundance Tapestry opens you to what's been arriving all along."
+        },
+        {
+          "id": "the-landing",
+          "title": "The Landing",
+          "unlockDay": 3,
+          "minutes": null,
+          "summary": "Being recorded.",
+          "audio": null
+        },
+        {
+          "id": "same-note-quieter",
+          "title": "Same Note, Quieter",
+          "unlockDay": 7,
+          "minutes": null,
+          "summary": "Being recorded.",
+          "audio": null
+        },
+        {
+          "id": "edge-session",
+          "title": "The edge session",
+          "unlockDay": 10,
+          "minutes": null,
+          "summary": "Being recorded. Title to be confirmed.",
+          "audio": null,
+          "isEdge": true
+        }
+      ]
+    }
+  ]
+}
